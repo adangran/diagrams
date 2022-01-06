@@ -1,5 +1,18 @@
-git clone git@github.com:adangran/diagrams.git
 
-git add .
-git commit -m ""
-git push -u 
+进入：C:\Users\用户名\AppData\Local\drawio_diagrams.net
+
+git clone git@github.com:adangran/diagrams.git 
+
+git add .  
+git commit -m "说明"  
+git push -u origin main  
+
+
+------------------------------------------
+
+### 错误提示：Please make sure you have the correct access rights and the repository exist
+
+设置一下当前库的用户信息：
+
+git config --local user.email "adangran@live.com"  
+git config --local user.name "adangran"  
