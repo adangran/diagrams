@@ -8,6 +8,9 @@ git commit -m "说明"
 git push -u origin main  
 
 
+git fetch
+git merge origin/main
+git push
 ------------------------------------------
 
 ### 错误提示：Please make sure you have the correct access rights and the repository exist
